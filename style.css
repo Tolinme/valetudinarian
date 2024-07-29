@@ -1,0 +1,30 @@
+html{
+	background-color: #000;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.fon{
+	background-position: center;
+	background-color: rgb(0, 0, 150);
+	background-blend-mode: difference;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top:  50%;
+	left:  50%;
+	transform: translate(-50%, -50%);
+	transition: all 900ms ease ;
+}
+
+.msg{
+	position: absolute;
+	color: white;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	bottom: 10%;
+	font-family: sans-serif;
+	font-size: 30px;
+	text-align: center;
+	text-shadow: 0 0 3px white;
+} 
